@@ -1,0 +1,6 @@
+framework module Pods_hello_realm {
+  umbrella header "Pods-hello-realm-umbrella.h"
+
+  export *
+  module * { export * }
+}
