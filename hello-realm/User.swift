@@ -23,8 +23,18 @@ class User: Object {
 
     func save() {
         do {
-            try realm?.write {
-                realm?.add(self, update: true)
+            try defaultRealm.write {
+                defaultRealm.add(self, update: true)
+            }
+        } catch let err {
+            print(err.localizedDescription)
+        }
+    }
+
+    func delete() {
+        do {
+            try defaultRealm.write {
+                defaultRealm.delete(self)
             }
         } catch let err {
             print(err.localizedDescription)

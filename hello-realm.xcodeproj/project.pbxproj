@@ -19,6 +19,8 @@
 		C5485523201E96F800C211F3 /* hello_realmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5485522201E96F800C211F3 /* hello_realmUITests.swift */; };
 		C5485531201E973000C211F3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C5485530201E973000C211F3 /* Podfile */; };
 		C5485533201E983300C211F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5485532201E983300C211F3 /* User.swift */; };
+		C5485535201EA01D00C211F3 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5485534201EA01D00C211F3 /* Configs.swift */; };
+		C5485537201EA12700C211F3 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5485536201EA12700C211F3 /* RealmManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		C5485524201E96F800C211F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5485530201E973000C211F3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		C5485532201E983300C211F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5485534201EA01D00C211F3 /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		C5485536201EA12700C211F3 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		D161BCC4DF69B960D9890D7C /* Pods-hello-realmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-realmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hello-realmTests/Pods-hello-realmTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F853894057B1E55B8A73C182 /* Pods-hello-realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-realm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hello-realm/Pods-hello-realm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +148,8 @@
 			children = (
 				C5485502201E96F800C211F3 /* AppDelegate.swift */,
 				C5485504201E96F800C211F3 /* ViewController.swift */,
+				C5485534201EA01D00C211F3 /* Configs.swift */,
+				C5485536201EA12700C211F3 /* RealmManager.swift */,
 				C5485532201E983300C211F3 /* User.swift */,
 				C5485506201E96F800C211F3 /* Main.storyboard */,
 				C5485509201E96F800C211F3 /* Assets.xcassets */,
@@ -468,6 +474,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5485505201E96F800C211F3 /* ViewController.swift in Sources */,
+				C5485535201EA01D00C211F3 /* Configs.swift in Sources */,
+				C5485537201EA12700C211F3 /* RealmManager.swift in Sources */,
 				C5485503201E96F800C211F3 /* AppDelegate.swift in Sources */,
 				C5485533201E983300C211F3 /* User.swift in Sources */,
 			);

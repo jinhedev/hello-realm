@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.cyan
+        let newUser = User(id: "123", title: "sihfaksfnd", is_completed: false, created_at: NSDate(), updated_at: NSDate())
+        newUser.save()
+        print(Configs.shared.documentDirectory())
     }
 
     override func didReceiveMemoryWarning() {
